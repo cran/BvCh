@@ -1,0 +1,37 @@
+Package: BvCh
+Type: Package
+Title: Bivariate Chen Distribution: Density, Survival, Hazard, Plots
+        and Estimates
+Version: 0.1.0
+Authors@R: c(
+    person("Mukul", "Bijalwan", role = "aut",
+           comment = "ORCID iD: https://orcid.org/0009-0001-3040-6912"),
+    person(given = "Puneet Kumar", family = "Gupta",
+           email = "puneetstat999@gmail.com", role = c("aut", "cre"),
+           comment = "ORCID iD: https://orcid.org/0000-0002-3458-5655"))
+Description: Probability density, survival and hazard functions, random
+    generation, graphical displays and maximum likelihood estimation for
+    bivariate Chen type models. Three constructions are covered: the
+    Bivariate Chen distribution with a singular component
+    on the diagonal, the Bivariate Extended Chen distribution, and the
+    Bivariate Inverse copula Chen distribution obtained through an inverse
+    copula with Chen marginals. Univariate Chen density, distribution,
+    quantile, survival, hazard and random generation routines are obtained
+    from the 'reliaR' package.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 4.0.0)
+Imports: reliaR (>= 0.2), stats, graphics, grDevices
+Suggests: testthat (>= 3.0.0), knitr, rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/puneetstat999/BvCh
+BugReports: https://github.com/puneetstat999/BvCh/issues
+Config/roxygen2/version: 8.1.0
+NeedsCompilation: no
+Packaged: 2026-10-09 06:54:54 UTC; IUD
+Author: Mukul Bijalwan [aut] (ORCID iD: https://orcid.org/0009-0001-3040-6912),
+  Puneet Kumar Gupta [aut, cre] (ORCID iD:
+    https://orcid.org/0000-0002-3458-5655)
+Maintainer: Puneet Kumar Gupta <puneetstat999@gmail.com>
+Repository: CRAN
+Date/Publication: 2026-10-21 09:10:02 UTC
